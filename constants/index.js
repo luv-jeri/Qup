@@ -1,10 +1,11 @@
 export default {
   API_URL: 'https://api.github.com/',
-
-  
-  API_USER: 'https://api.github.com/users/',
-  API_SEARCH: 'https://api.github.com/search/users?q=',
-  API_REPO: 'https://api.github.com/users/luv-jeri/repos',
-  API_FOLLOWERS: 'https://api.github.com/users/luv-jeri/followers',
-  API_REPO_DESC: 'https://api.github.com/repos/luv-jeri/',
+  API_TOKEN: 'Token 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',
+  USERS: [
+    {
+      email: 'x@x.com',
+      password: '1234',
+      name: 'X',
+    },
+  ],
 };
