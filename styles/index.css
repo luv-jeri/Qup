@@ -43,7 +43,7 @@ header {
   color: var(--light);
   display: flex;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
-  justify-content: center;
+  
   align-items: center;
   position: fixed;
   top: 0;
@@ -79,4 +79,28 @@ h5 {
   -moz-box-shadow: 10px 10px 22px 7px rgba(0, 0, 0, 0.7);
   position: relative;
   z-index: 2; */
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.nav input{
+  font-size: 1rem;
+  width: 300px;
+  height: 34px; 
+  
+}
+.nav .btn{
+ background-color: #8d8daa;
+ border: 2px solid white;
+ color: white;
+
+}
+.nav .btn a{
+  text-decoration: none;
+  color: wheat;
 }

@@ -1,0 +1,75 @@
+.profile-container{
+    position: relative;
+    margin-top: 10px;
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.title{
+    text-align: center;    
+}
+
+.profile-info{
+    position: sticky;
+    background-color: rgb(179, 255, 214);
+    padding-top: 100px;
+    text-align: center;
+}
+.profile-info h1{
+    margin: 20px 0 20px 0;
+    color: black;
+}
+.profile-info h4{
+    margin: 0 0 20px 0; 
+}
+.profile-info .btn{
+    width: 50%;
+    font-size: 1.3rem;
+    margin: 0 0 20px 0; 
+}
+
+
+.profile-img img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+.profile-content{
+    padding: 50px;
+    background-color: azure;
+    
+}
+.profile-content .menu{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.profile-content .menu ul li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    
+}
+.about{
+    margin-top: 50px;
+    padding: 60px;
+    background-color: rgb(219, 239, 232);
+}
+
+.popular-repo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cards{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(219, 239, 232);
+}
